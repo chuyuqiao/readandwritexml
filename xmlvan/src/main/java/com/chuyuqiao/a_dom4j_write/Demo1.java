@@ -27,5 +27,6 @@ public class Demo1 {
         write.write(doc);
         //3.关闭流
         write.close();
+        System.out.println(MD5Utils.crateMD5(new File("g://contact.xml")));
     }
 }
