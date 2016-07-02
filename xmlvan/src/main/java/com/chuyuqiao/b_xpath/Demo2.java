@@ -15,7 +15,7 @@ public class Demo2 {
 
     public static void main(String[] args) throws Exception {
 
-        Document doc = new SAXReader().read(new File("g:/XML/contact.xml"));
+        Document doc = new SAXReader().read(new File("g:/XML/Contact.xml"));
 
         String xpath = "";
 

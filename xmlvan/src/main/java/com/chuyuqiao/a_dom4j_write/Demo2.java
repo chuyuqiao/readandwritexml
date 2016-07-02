@@ -15,9 +15,9 @@ import java.io.FileOutputStream;
 public class Demo2 {
 
     public static void main(String[] args) throws Exception {
-        Document doc = new SAXReader().read(new File("g://contact.xml"));
+        Document doc = new SAXReader().read(new File("g://Contact.xml"));
         //指定文件输出的位置
-        FileOutputStream out = new FileOutputStream("g://contact.xml");
+        FileOutputStream out = new FileOutputStream("g://Contact.xml");
         /**
          * 1.指定写出的格式
          */
